@@ -14,9 +14,9 @@ class DrinkCalulator {
     static let beer: Double = 12.0 //in oz
     static let wine: Double = 5.0
     
-    static func calculateDrinksWith(bodyWeight: Double, gender: Gender) -> (shots: Double, beerInOunces: Double, wineInOunces: Double) {
+    static func calculateDrinksWith(bodyWeight: Double, genderContant gc: Double) -> (shots: Double, beerInOunces: Double, wineInOunces: Double) {
         
-        let numberOfDrinks: Double = (0.0008 * (bodyWeight * 454 * gender.rawValue)) / 14
+        let numberOfDrinks: Double = (0.0008 * (bodyWeight * 454 * gc)) / 14
         
         return (numberOfDrinks, numberOfDrinks * beer, numberOfDrinks * wine)
     }

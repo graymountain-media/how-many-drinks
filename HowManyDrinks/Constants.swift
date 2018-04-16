@@ -8,12 +8,8 @@
 
 import Foundation
 
-
-
-
-
-enum Gender: Double {
-    case "male" = .68
-    case "female" = .55
+enum Gender {
+    static let male = 0.068
+    static let female = 0.55
 }
 
