@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A19C000120851D9E00DB0EC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A19C000020851D9E00DB0EC1 /* Assets.xcassets */; };
 		A19C000420851D9E00DB0EC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19C000220851D9E00DB0EC1 /* LaunchScreen.storyboard */; };
+		A19C000C20851E0100DB0EC1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19C000B20851E0100DB0EC1 /* Constants.swift */; };
+		A19C000E20851E6300DB0EC1 /* DrinkCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19C000D20851E6300DB0EC1 /* DrinkCalculator.swift */; };
 		A19CFFFA20851D9D00DB0EC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CFFF920851D9D00DB0EC1 /* AppDelegate.swift */; };
 		A19CFFFC20851D9D00DB0EC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19CFFFB20851D9D00DB0EC1 /* ViewController.swift */; };
 		A19CFFFF20851D9D00DB0EC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A19CFFFD20851D9D00DB0EC1 /* Main.storyboard */; };
@@ -18,6 +20,8 @@
 		A19C000020851D9E00DB0EC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A19C000320851D9E00DB0EC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A19C000520851D9E00DB0EC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A19C000B20851E0100DB0EC1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A19C000D20851E6300DB0EC1 /* DrinkCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkCalculator.swift; sourceTree = "<group>"; };
 		A19CFFF620851D9D00DB0EC1 /* HowManyDrinks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowManyDrinks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A19CFFF920851D9D00DB0EC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A19CFFFB20851D9D00DB0EC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A19C000F208520D300DB0EC1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A19C000020851D9E00DB0EC1 /* Assets.xcassets */,
+				A19C000220851D9E00DB0EC1 /* LaunchScreen.storyboard */,
+				A19C000520851D9E00DB0EC1 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		A19CFFED20851D9D00DB0EC1 = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +71,9 @@
 				A19CFFF920851D9D00DB0EC1 /* AppDelegate.swift */,
 				A19CFFFB20851D9D00DB0EC1 /* ViewController.swift */,
 				A19CFFFD20851D9D00DB0EC1 /* Main.storyboard */,
-				A19C000020851D9E00DB0EC1 /* Assets.xcassets */,
-				A19C000220851D9E00DB0EC1 /* LaunchScreen.storyboard */,
-				A19C000520851D9E00DB0EC1 /* Info.plist */,
+				A19C000F208520D300DB0EC1 /* Resources */,
+				A19C000B20851E0100DB0EC1 /* Constants.swift */,
+				A19C000D20851E6300DB0EC1 /* DrinkCalculator.swift */,
 			);
 			path = HowManyDrinks;
 			sourceTree = "<group>";
@@ -136,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A19CFFFC20851D9D00DB0EC1 /* ViewController.swift in Sources */,
+				A19C000C20851E0100DB0EC1 /* Constants.swift in Sources */,
+				A19C000E20851E6300DB0EC1 /* DrinkCalculator.swift in Sources */,
 				A19CFFFA20851D9D00DB0EC1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
